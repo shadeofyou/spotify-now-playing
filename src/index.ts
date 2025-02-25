@@ -129,7 +129,7 @@ export default {
     };
     return Response.json(nowPlaying, {
       headers: {
-        'Access-Control-Allow-Origin': 'https://eyrin.jp',
+        'Access-Control-Allow-Origin': 'https://shadeofyou.github.io',
       },
     });
   },
